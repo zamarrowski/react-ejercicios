@@ -1,5 +1,5 @@
 const Link = props => (
-  <a href={props.to} rel="noreferrer" target={props.openInNewTab ? '_blank' : '_self'}>
+  <a href={props.to} className={props.className} rel="noreferrer" target={props.openInNewTab ? '_blank' : '_self'}>
     {props.children}
   </a>
 )

@@ -1,4 +1,4 @@
-import Button, { TomatoButton } from './Button'
+import { TomatoButton } from './Button'
 
 const TodoList = props => {
   return (

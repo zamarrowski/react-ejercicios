@@ -1,17 +1,8 @@
-import { ThemeProvider } from 'styled-components'
 import './App.css'
-import LinkStyled from './clase2/LinkStyled'
-import ListContainer from './clase2/ListContainer'
+import Shop from './clase3/Shop'
 
 function App() {
-  return (
-    <>
-      <ThemeProvider theme={{ main: 'yellow' }}>
-        <ListContainer />
-        <LinkStyled>hola link</LinkStyled>
-      </ThemeProvider>
-    </>
-  )
+  return <Shop />
 }
 
 export default App

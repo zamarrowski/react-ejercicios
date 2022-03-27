@@ -11,6 +11,8 @@ const Counter = () => {
     setCount(count => count - 1)
   }
 
+  if (count === 2) throw new Error('la has liado!')
+
   return (
     <>
       <span>{count}</span>
